@@ -1,0 +1,17 @@
+<launch>
+    <node name="color_mask" pkg="mask-generation" type="color_mask.py" output="screen">
+        <param name="image_source" value="/usb_cam/image_raw"/>
+        <param name="output" value="/mask"/>
+
+        <param name="lower_h" value="0"/>
+        <param name="lower_s" value="120"/>
+        <param name="lower_v" value="100"/>
+
+        <param name="upper_h" value="12"/>
+        <param name="upper_s" value="255"/>
+        <param name="upper_v" value="255"/>
+
+        <param name="filter" value="True"/>
+        <param name="window_size" value="5"/>
+    </node>
+</launch>
