@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>mask-generation</name>
+  <name>ros-object-mask-generation</name>
   <version>0.0.0</version>
-  <description>The mask-generation package</description>
+  <description>The ros-object-mask-generation package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

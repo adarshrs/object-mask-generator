@@ -1,5 +1,5 @@
 <launch>
-    <node name="color_mask" pkg="mask-generation" type="color_mask.py" output="screen">
+    <node name="color_mask" pkg="ros-object-mask-generation" type="color_mask.py" output="screen">
         <param name="image_source" value="/usb_cam/image_raw"/>
         <param name="output" value="/mask"/>
 
